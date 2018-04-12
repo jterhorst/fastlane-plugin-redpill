@@ -31,7 +31,7 @@ module Fastlane
       end
 
       def self.bin_bluepill
-        File.expand_path('../../../../../../bin/bluepill', __FILE__)
+        File.expand_path('/usr/local/Cellar/bluepill/2.2.0/bin/bluepill', __FILE__)
       end
 
       def self.description
